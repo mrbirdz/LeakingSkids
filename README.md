@@ -1,4 +1,4 @@
-# birdzware winning tho?
+# why birdzware winning tho?
 
 https://discord.gg/Krnnrp9dSM
 

@@ -3,7 +3,7 @@
 Skid kelimesini bile skidleyen wxer tam bir orospu evladidir
 Allahini sikerim wxer git Lua öğren anasina caktigim 😁😁☝🏿☝🏿☝🏿🕋🕋 
 
-raped by Mr. Birdz#8134
+raped by Mr. Birdz#8134 & dder#1824
 
 --]]
 getgenv().webhookLogs = true -- if you want to log the ppl that tries to steal your remotes

